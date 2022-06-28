@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body{
+    margin: 0;
+    font-family:'Arial';
+}
+
+body.dark-mode{
+    background-color: black; 
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 10%;
+}
+
+.central{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+#buttonMode{
+    font-size: 1.6rem;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 50rem;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+    border: none;
+}
+
+#buttonMode.dark-mode{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+}
+
+h3.dark-mode{
+    color: white;
+}
+
+.sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociais a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.sociais img{
+    width: 30%;
+}
+
+@media (max-width: 1200px){
+    img{
+        width: 20%;
+    }
+}
+
+@media (max-width: 770px){
+    img{
+        width: 30%;
+    }
+
+    #buttonMode{
+        width: 30%;
+    }
+}
+
+@media (max-width: 520px){
+    img{
+        width: 40%;
+    }
+
+    #buttonMode{
+        width: 40%;
+    }
+}
+
+@media (max-width: 390px){
+    img{
+        width: 60%;
+    }
+
+    #buttonMode{
+        width: 60%;
+    }
+}
+
+@media (max-width: 250px){
+    img{
+        width: 80%;
+    }
+
+    #buttonMode{
+        width: 80%;
+    }
+}
